@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Our Online Store</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+    
+    <div class="footer">
+        <p>Contact us: email@example.com</p>
+    </div>
+</body>
+</html>
